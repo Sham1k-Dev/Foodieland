@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    font-family: sans-serif;
+    width: 1280px;
+    height: 30px;
+    margin: 20px auto;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav ul{
+    display: flex;
+    width: 50%;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.tarmoqlar a{
+    color: black;
+    margin-left: 1rem ;
+}
+
+/* menu */
+
+menu{
+    width: 1280px;
+    height: 640px;
+    display: flex;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50px;
+}
+.images{
+    position: absolute;
+    left: 570px;
+    top: 50px;
+    z-index: +1;
+}
+.wraper{
+    width: 620px;
+    background-color:  #E7FAFE;
+    padding: 50px;
+    border-radius: 50px 0 0 50px;
+}
+.hot{
+    width: 156px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+}
+.hot img{
+    padding: 12px;
+}
+.hot p{
+    padding-top: 15px;
+}
+.wraper h1{
+    width: 520px;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.p1{
+    width: 530px;
+    color: rgb(0, 0, 0,0.4);
+    margin-top: 25px;
+}
+.wraper ul{
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+}
+.wraper ul li{
+    list-style-type: none;
+    width: 139px;
+    height: 40px;
+    background-color: #DBEDF1;
+    border-radius: 20px;
+    padding-top: 12px;
+}
+ul .li1{
+    margin-left: 20px;
+}
+.fa-solid{
+    padding-right: 10px;
+}
+.wrap{
+    display: flex;
+    width: 520px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.banner{
+    display: flex;
+}
+.text{
+    margin-left: 15px;
+}
+.banner h4{
+    padding: 5px;
+}
+.banner p{
+    padding: 3px;
+    color: rgb(0, 0, 0,0.4);
+}
+.wrap button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.fa-circle-play{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.image{
+    position: relative;
+}
+.imagess{
+    width: 495px;
+    height: 495px;
+    border-radius: 50%;
+    
+}
+.imagess img{
+    width: 495px;
+    height: 495px;
+    border-radius: 50%;
+    position: absolute;
+    left: 716px;
+    z-index: +1;
+    top: 75px;
+    animation: rotate 10s infinite linear;
+    box-shadow: 0px 0px 20px black;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(360deg);
+    }
+}
+.image img{
+    border-radius: 0 50px 50px 0;
+}
+.categories{
+    width: 1280px;
+    margin: 100px auto;
+}
+.cat{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* categories */
+
+.categories h1{
+    width: auto;
+    font-size: 50px;
+}
+.cat button{
+    width: 200px;
+    background-color: #E7FAFE;
+    border-radius: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.catego{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.categ{
+    width: 180px;
+    height: 202px;
+    text-align: center;
+    border-radius: 25px;
+}
+.categ img{
+    transition: transform 0.3s ease;
+}
+.categ h4{
+    margin-top: 50px;
+}
+.categ .Breakfast{
+    filter: drop-shadow(15px 15px 15px #bcb8b3);
+}
+.categ:hover img {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.categ .Vegan{
+    filter: drop-shadow(15px 15px 15px #1F8A29);
+}
+.categ .Meat{
+    filter: drop-shadow(15px 15px 15px #8C2921);
+}
+.categ .Dessert{
+    filter: drop-shadow(15px 15px 15px #DFB86D);
+}
+.categ .Lunch{
+    filter: drop-shadow(15px 15px 15px #C57621);
+}
+.categ .Chocolate{
+    filter: drop-shadow(15px 15px 15px #C61118);
+}
+.break{
+    box-shadow: inset 1px -30px 35px #d8d6d2;
+}
+.veg{
+    box-shadow: inset 1px -30px 35px #82dc8b;
+}
+.mea{
+    box-shadow: inset 1px -30px 35px #de7b74;
+}
+.des{
+    box-shadow: inset 1px -30px 35px #d9c49e;
+}
+.lun{
+    box-shadow: inset 1px -30px 35px  #d4a069;
+}
+.choco{
+    box-shadow: inset 1px -30px 35px  #db484d;
+}
+
+.Simple{
+    width: 1280px;
+    margin: 100px auto;
+    flex-wrap: wrap;
+}
+.Simple h1{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.Simple p{
+    width: 706px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.boxes{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 400px;
+    height: 434px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, white,#d8f3f9);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.box h3{
+    width: 352px;
+    font-size: 25px;
+    margin: 25px auto;
+}
+.box ul{
+    display: flex;
+    text-align: center;
+    margin-left: 15px;
+}
+.box ul li{
+    list-style-type: none;
+}
+.box button{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    left: 310px;
+    top: 30px;
+    cursor: pointer;
+}
+.box1 h4{
+    margin: 50px auto 0px;
+    width: 172px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.box1{
+    background-image: url("../image/simple/Mask\ Group\ \(5\).png");
+    width: 400px;
+    height: 434px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.fa-heart{
+    font-size: 30px;
+    padding-left: 8px;
+    color: rgb(154, 154, 154);
+}
+.heart-button:focus .fa-heart {
+    color: red;
+}
+.heart-button:focus {
+    outline: none; 
+}
+.heart-button:hover{
+    z-index: +1;
+}
+
+/* everyone */
+
+.everyone{
+    width: 1280px;
+    margin: 50px auto;
+    display: flex;
+}
+.everyone h1{
+    font-size: 45px;
+    margin-top: 200px;
+}
+.textt p{
+    width: 460px;
+    color: rgb(154, 154, 154);
+    margin-top: 40px;
+}
+.textt button{
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.oshpaz{
+    position: relative;
+}
+.oshpazz{
+    margin-left: 90px;
+    background-image: linear-gradient(180deg, white,#d8f3f9);
+    border-radius: 30px;
+}
+.pomidor{
+    position: absolute;
+    top: 430px;
+    left: 70px;
+    filter: drop-shadow(0 0 10px #C61118);
+}
+.gusht{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    filter: drop-shadow(0 0 10px #8C2921);
+}
+.piyoz{
+    position: absolute;
+    top: 130px;
+    left: 550px;
+    filter: drop-shadow(0 0 10px #A85838);
+}
+.kukat{
+    position: absolute;
+    top: 230px;
+    left: 650px;
+    filter: drop-shadow(0 0 10px #026917);
+}
+
+/* check */
+
+.check{
+    width: 1510px;
+    height: 964px;
+    margin: 150px auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, white,#d8f3f9);
+}
+.tex{
+    width: 840px;
+    margin: 50px auto;
+}
+.tex h1{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.tex p{
+    color: rgb(154, 154, 154);
+    width: 90%;
+    margin: 0 auto;
+}
+.instagramimg{
+    margin: 100px auto;
+}
+.instagramimg img{
+    padding: 17px;
+    border-radius: 5px;
+}
+.check button{
+    width: 229px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.check button .fa-instagram{
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* recipe */
+
+.recipe{
+    width: 1280px;
+    margin: 50px auto;
+}
+.teex{
+    display: flex;
+}
+.teex h1{
+    width: 507px;
+    font-size: 36px;
+}
+.teex p{
+    color: rgb(154, 154, 154);
+    width: 600px;
+    margin-top: 25px;
+    margin-left: 160px;
+}
+.recipe-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.boox{
+    width: 290px;
+    height: 316px;
+    margin-top: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.boox h3{
+    margin-top: 30px;
+}
+.boox ul{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.boox ul li{
+    list-style-type: none;
+    color: rgb(154, 154, 154);
+}
+.boox ul .fa-solid{
+    color: black;
+}
+.boox button{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 10px;
+    left: 230px;
+}
+
+/* inbox */
+
+.inbox{
+    width: 1280px;
+    height: 442px;
+    margin: 100px auto;
+    background-color: #E7F9FD;
+    border-radius: 50px;
+    position: relative;
+    padding-top: 85px;
+}
+.your{
+    width: 620px;
+    height: 282px;
+    margin: auto;
+}
+.your h1{
+    width: 100%;
+    text-align: center;
+    font-size: 44px;
+}
+.your p{
+    width: 100%;
+    color: rgb(132, 132, 132);
+    text-align: center;
+    margin-top: 50px;
+}
+.your input{
+    width: 480px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    margin: 60px 70px 0px 70px;
+    padding-left: 50px;
+}
+.your button{
+    width: 160px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+    border: none;
+    position: absolute;
+    bottom: 87px;
+    left: 710px;
+}
+.rasm1{
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 0px 50px;
+}
+.rasm2{
+    position: absolute;
+    left: 930px;
+    bottom: 0px;
+    border-radius: 0px 0px 50px 0px;
+}
+
+/* footer */
+
+footer{
+    width: 1280px;
+    margin: 150px auto 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loggo{
+    width: 400px;
+}
+.food{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.loggo p{
+    color: rgb(132, 132, 132);
+    margin-top: 25px;
+}
+.fot{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-left: 478px;
+    margin-top: 15px;
+}
+.fot li{
+    list-style-type: none;
+}
+.p2{
+    width: 336px;
+    margin: 50px auto 0px;
+    margin-left: 530px;
+}
+.p2 span{
+    color: red;
+}
+.ijtimoiy{
+    display: flex;
+    width: 134px;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.ijtimoiy li{
+    list-style-type: none;
+    font-size: 20px;
+}
+footer hr{
+    width: 100%;
+    margin-top: 50px;
+}

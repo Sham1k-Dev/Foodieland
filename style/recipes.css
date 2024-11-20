@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    font-family: sans-serif;
+    width: 1280px;
+    height: 30px;
+    margin: 20px auto;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav ul{
+    display: flex;
+    width: 50%;
+    list-style-type: none;
+    justify-content: space-around;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.tarmoqlar a{
+    color: black;
+    margin-left: 1rem ;
+}
+
+/* menu */
+
+menu{
+    width: 1280px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.health{
+    width: 777px;
+}
+.health h1{
+    font-size: 58px;
+}
+.john{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.john1{
+    display: flex;
+    width: 163px;
+}
+.text{
+    margin-left: 10px;
+}
+.text h5{
+    font-size: 17px;
+}
+.text p{
+    font-size: 12px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.soat{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.soat i{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.soat h6{
+    font-size: 15px;
+}
+.soat p{
+    font-size: 16px;
+    padding-top: 10px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.text1{
+    margin-left: 15px;
+}
+.soat .p1{
+    margin-left: 15px;
+    margin-top: 6px;
+    color: rgb(0, 0, 0, 0.6);
+}
+menu ul{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+menu ul li{
+    list-style-type: none;
+    text-align: center;
+}
+menu ul li button{
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    background-color: #E7FAFE;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+menu ul li i{
+    font-size: 25px;
+}
+menu ul li p{
+    margin-left: 20px;
+}
+.yozuv{
+    width: 400px;
+    margin-left: 17px;
+    background-color:  #E7FAFE;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+.yozuvlar{
+    width: 336px;
+    height: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: auto;
+}
+.yozuvlar h6{
+    font-size: 14px;
+}
+.yozuvlar p{
+    color: rgb(0, 0, 0, 0.6);
+}
+hr{
+    width: 100%;
+}
+.p3{
+    color: rgb(0, 0, 0, 0.6);
+    width: 336px;
+    margin-top: 180px;
+}
+.p4{
+    color: rgb(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+.rasm{
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+/* wrapper */
+
+.wrapper{
+    width: 1280px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap1{
+    width: 840px;
+}
+.box1{
+    height: 561px;
+}
+.box1 h2{
+    font-size: 22px;
+    margin-top: 40px;
+}
+.box1 input{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.box3{
+    width: 400px;
+    margin-left: 35px;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 30px;
+}
+.box h3{
+    width: 196px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.box p{
+    width: 196px;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.box4{
+    width: 400px;
+    margin-left: 35px;
+    margin-top: 60px;
+}
+#checkbox{
+    width: 24px;
+    height: 24px;
+}
+.box1 p{
+    font-size: 20px;
+    width: 250px;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.inputt{
+    height: 24px;
+}
+.box1 hr{
+    margin-top:45px;
+    margin-bottom: 15px;
+}
+.box2 p{
+    font-size: 20px;
+    width: 250px;
+    margin-left: 50px;
+    
+}
+.box2 .inputt{
+    margin-top: 30px;
+    height: 24px;
+}
+.box2 p{
+    margin-top: -25px;
+}
+.box2 hr{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.box2{
+    margin-top: 60px;
+}
+
+.direct{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+.direct h1{
+    margin-bottom: 40px;
+}
+.direct h2{
+    margin: 20px 30px;
+}
+.direct p{
+    width: 792px;
+    margin: 20px 30px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.direct hr{
+    width: 840px;
+}
+.direct img{
+    margin: 20px 30px;
+}
+.direct .inputt{
+    position: absolute;
+}
+.direct .input1{
+    position: absolute;
+    top: 797px;
+}
+.direct .input2{
+    position: absolute;
+    top: 958px;
+}
+
+/* inbox */
+
+.inbox{
+    width: 1280px;
+    height: 442px;
+    margin: 100px auto;
+    background-color: #E7F9FD;
+    border-radius: 50px;
+    position: relative;
+    padding-top: 85px;
+}
+.your{
+    width: 620px;
+    height: 282px;
+    margin: auto;
+}
+.your h1{
+    width: 100%;
+    text-align: center;
+    font-size: 44px;
+}
+.your p{
+    width: 100%;
+    color: rgb(132, 132, 132);
+    text-align: center;
+    margin-top: 50px;
+}
+.your input{
+    width: 480px;
+    height: 80px;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+    margin: 60px 70px 0px 70px;
+    padding-left: 50px;
+}
+.your button{
+    width: 160px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+    border: none;
+    position: absolute;
+    bottom: 87px;
+    left: 710px;
+}
+.rasm1{
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 0px 50px;
+}
+.rasm2{
+    position: absolute;
+    left: 930px;
+    bottom: 0px;
+    border-radius: 0px 0px 50px 0px;
+}
+
+/* keyingi menu */
+
+.recipe{
+    width: 1280px;
+    margin: 100px auto;
+}
+.teex{
+    display: flex;
+}
+.teex h1{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+}
+.teex p{
+    color: rgb(154, 154, 154);
+    width: 600px;
+    margin-top: 25px;
+    margin-left: 160px;
+}
+.recipe-img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.boox{
+    width: 290px;
+    height: 316px;
+    position: relative;
+    cursor: pointer;
+}
+.boox h3{
+    margin-top: 30px;
+}
+.boox ul{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.boox ul li{
+    list-style-type: none;
+    color: rgb(154, 154, 154);
+}
+.boox ul .fa-solid{
+    color: black;
+    padding: 10px;
+}
+.fa-heart{
+    font-size: 30px;
+    color: rgb(154, 154, 154);
+}
+.heart-button:focus .fa-heart {
+    color: red;
+}
+.heart-button:focus {
+    outline: none; 
+}
+.heart-button:hover{
+    z-index: +1;
+}
+.boox button{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 10px;
+    left: 230px;
+}
+
+/* footer */
+
+footer{
+    width: 1280px;
+    margin: 150px auto 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.loggo{
+    width: 400px;
+}
+.food{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.loggo p{
+    color: rgb(132, 132, 132);
+    margin-top: 25px;
+}
+.fot{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-left: 478px;
+    margin-top: 15px;
+}
+.fot li{
+    list-style-type: none;
+}
+.p2{
+    width: 336px;
+    margin: 50px auto 0px;
+    margin-left: 530px;
+}
+.p2 span{
+    color: red;
+}
+.ijtimoiy{
+    display: flex;
+    width: 134px;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.ijtimoiy li{
+    list-style-type: none;
+    font-size: 20px;
+}
+footer hr{
+    width: 100%;
+    margin-top: 50px;
+}
